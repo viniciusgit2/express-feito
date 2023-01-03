@@ -1,5 +1,14 @@
-import { search } from "./search";
-import { searchalbum } from "./search";
-import { searchtrack } from "./search";
-import { searchartist } from "./search";
-const artista=search()
+
+
+
+
+
+export default function main(){
+    const element = <a href="https://open.spotify.com"> spotify </a>;
+return(element)
+//console.log("vou ter que adptar por que diversos elementos como todos derivados do sinon não reconhece")
+
+
+
+
+}

@@ -28,7 +28,7 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx"
-, "pages/spots/album.js"  ],
+, "pages/spots/album.js", "pages/spots/main.jsx"  ],
   "exclude": [
     "node_modules"
   ]
