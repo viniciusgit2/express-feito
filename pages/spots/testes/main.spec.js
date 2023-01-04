@@ -18,4 +18,4 @@ describe("generice search",()=>{
     const artista=search()
   expect(fetchedstub).to.have.been.calledonce})
 })
-//é pra dar ero nao está com nem metade criado ainda
+//é pra dar ero nao está com nem metade criado ainda se nao der erro melhor

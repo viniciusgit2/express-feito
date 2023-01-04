@@ -12,7 +12,8 @@
     "build:prod": "webpack --mode=production --node-env=production",
     "watch": "webpack --watch",
     "serve": "webpack serve",
-    "teste": "./node_modules/.bin/mocha testes/**/*.spec.js",
+    "teste1": "./node_modules/.bin/mocha testes/**/*.spec.js",
+    "teste2": "./node_modules/.bin/smoke testes/**/*.spec.js",
     "tdd": "./node_modules/.bin/mocha testes/**/*.spec.js --watch"
   },
   "dependencies": {
@@ -47,6 +48,7 @@
     "sinon": "^15.0.1",
     "sinon-chai": "^3.7.0",
     "sinon-stub-promise": "^4.0.0",
+    "smoke": "^3.1.1",
     "style-loader": "^3.3.1",
     "stylus": "^0.59.0",
     "stylus-loader": "^7.1.0",
