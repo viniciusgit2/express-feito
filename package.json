@@ -34,6 +34,7 @@
   "devDependencies": {
     "@webpack-cli/generators": "^3.0.1",
     "babel-cli": "^6.26.0",
+    "chai": "^4.3.7",
     "css-loader": "^6.7.3",
     "eslint": "^8.31.0",
     "eslint-plugin-editorconfig": "^4.0.2",
