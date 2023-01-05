@@ -14,7 +14,8 @@
     "serve": "webpack serve",
     "teste1": "./node_modules/.bin/mocha testes/**/*.spec.js",
     "teste2": "./node_modules/.bin/smoke testes/**/*.spec.js",
-    "tdd": "./node_modules/.bin/mocha testes/**/*.spec.js --watch"
+    "tdd": "./node_modules/.bin/mocha testes/**/*.spec.js --watch",
+    "coverage":"nyc yarn teste1"
   },
   "dependencies": {
     "@next/font": "13.1.1",
@@ -22,7 +23,6 @@
     "@types/react": "18.0.26",
     "@types/react-dom": "18.0.10",
     "cli": "^1.0.1",
-    "coverage": "^0.4.1",
     "eslint-config-next": "13.1.1",
     "next": "13.1.1",
     "pre-push": "^0.1.4",
@@ -43,6 +43,7 @@
     "mini-css-extract-plugin": "^2.7.2",
     "mocha": "^10.2.0",
     "node-fetch": "^3.3.0",
+    "nyc": "^15.1.0",
     "prettier": "^2.8.1",
     "shisha": "^1.1.0",
     "shisha-smoke-detection": "^0.0.1-alpha.15",
